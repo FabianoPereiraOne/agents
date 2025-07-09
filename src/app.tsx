@@ -11,7 +11,7 @@ export const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path='/rooms' element={<Rooms />} />
-          <Route path='/rooms/:id' element={<Room />} />
+          <Route path='/rooms/:roomId' element={<Room />} />
         </Routes>
       </BrowserRouter>
     </QueryClientProvider>
